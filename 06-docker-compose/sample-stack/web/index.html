@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docker Compose Multi-Service Stack</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #1e293b;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      max-width: 500px;
+      text-align: center;
+      border: 1px solid #334155;
+    }
+    h1 { color: #38bdf8; margin-bottom: 0.5rem; }
+    p { color: #94a3b8; line-height: 1.6; }
+    .status-badge {
+      display: inline-block;
+      background: #059669;
+      color: #ecfdf5;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      font-size: 0.875rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Docker Compose Stack Active</h1>
+    <p>This page is served by an <strong>Nginx</strong> container, communicating with a backing <strong>Redis</strong> container inside an isolated bridge network.</p>
+    <div class="status-badge">All Systems Operational</div>
+  </div>
+</body>
+</html>

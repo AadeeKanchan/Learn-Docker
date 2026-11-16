@@ -1,0 +1,28 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: demo-web
+    ports:
+      - "${PORT:-8080}:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+    restart: unless-stopped
+    networks:
+      - frontend-net
+
+  cache:
+    image: redis:alpine
+    container_name: demo-cache
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - cache-data:/data
+    networks:
+      - frontend-net
+
+networks:
+  frontend-net:
+    driver: bridge
+
+volumes:
+  cache-data:

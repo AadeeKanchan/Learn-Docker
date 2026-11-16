@@ -1,0 +1,29 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies & Build artifacts
+node_modules
+__pycache__
+*.pyc
+*.pyo
+venv
+.venv
+dist
+build
+
+# Environment files with sensitive credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Editor and OS metadata
+.vscode
+.idea
+Thumbs.db
+.DS_Store
+
+# Documentation and markdown
+*.md
+notes
