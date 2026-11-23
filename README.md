@@ -2,6 +2,8 @@
 
 Welcome to your structured hands-on Docker learning workspace. This repository is organized into progressive, modular labs designed to take you from container foundations to production-grade orchestration and security hardening.
 
+[Docker Notes](https://drive.google.com/file/d/1pNl761VoBkFG8M15xGfrrsRH-uQssc5y/view?usp=sharing)
+
 ---
 
 ## 🗂️ Learning Curriculum & Module Index
