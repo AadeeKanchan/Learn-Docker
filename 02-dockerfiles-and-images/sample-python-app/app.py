@@ -20,7 +20,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Type", "application/json")
         self.end_headers()
         payload = {
-            "message": "Welcome to Dockerized Python Service!",
+            "message": "Hello World from Version 2.0 - Fast Cache Rebuild!",
             "environment": APP_ENV,
             "container_hostname": socket.gethostname(),
             "port": PORT
