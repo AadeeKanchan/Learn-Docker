@@ -46,7 +46,7 @@ docker rm test-nginx
 ---
 
 ## 📌 Progress Tracker
-- [ ] **Phase 1**: Foundations & CLI Lifecycle
+- ✅ **Phase 1**: Foundations & CLI Lifecycle
 - [ ] **Phase 2**: Dockerfiles & Image Authoring
 - [ ] **Phase 3**: Storage, Bind Mounts & Named Volumes
 - [ ] **Phase 4**: Networking & Service Discovery
